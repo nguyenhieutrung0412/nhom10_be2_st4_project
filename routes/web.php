@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 route::get('/index','WellcomeController@index');
+route::get('/login','WellcomeController@login');
 // Route::get('/', function () {
 //     return view('welcome');
 // });

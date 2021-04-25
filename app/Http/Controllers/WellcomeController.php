@@ -20,6 +20,9 @@ class WellcomeController extends Controller
     public function index(){
         return view('tc');
     }
+    public function login(){
+        return view('login');
+    }
 
     // public function TrangChu($name = "Đây là trang chủ"){
     //     $data['name'] = 'Đây là trang chủ vip pro';
